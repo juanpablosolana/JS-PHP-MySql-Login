@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Acceso al sistema</title>
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    />
+    <link rel="stylesheet" href="src/estilos.css" />
+  </head>
+  <body>
+    <form class="formulario" id="formulario">
+      <h1>Acceso</h1>
+      <div class="contenedor">
+        <div class="input-contenedor">
+          <i class="fas fa-user icon"></i>
+          <input type="text" placeholder="usuario" name="usuario" required />
+        </div>
+        <div class="input-contenedor">
+          <i class="fas fa-key icon"></i>
+          <input
+            type="password"
+            placeholder="password"
+            name="password"
+            required
+          />
+        </div>
+        <input type="submit" value="Login" class="button" />
+      </div>
+    </form>
+    <div class="overlay" id="overlay"></div>
+    <script src="app.js"></script>
+    <script src="efecto.js"></script>
+  </body>
+</html>
