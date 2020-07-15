@@ -1,7 +1,6 @@
 <?php
 
         $usuario = $_POST['usuario'];
-       // $usuario='pablo';
         $password = $_POST['password'];
         $json=array();
         
